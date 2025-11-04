@@ -543,7 +543,7 @@ a:focus {
 }
 
 .arrival_section .arrival_bg_box img {
-    width: 50%;
+    width: 40%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
