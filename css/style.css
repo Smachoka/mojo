@@ -354,21 +354,26 @@ a:focus {
   -o-object-position: top right;
      object-position: top right;
 }
-
+.product_section {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
 .product_section .heading_container {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .product_section .box {
     position: relative;
     margin-top: 25px;
     padding: 35px 35px;
-    background-color: #f7f8f9;
+    background-color: #fff;
     -webkit-transition: all .3s;
     transition: all .3s;
     overflow: hidden;
-    box-shadow: 5px 5px 5px -5px rgba(0,0,0,.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);;
     border: solid #fff 10px;
+    border-radius: 5px;
+
 }
 
 .product_section .box .img-box {
@@ -381,12 +386,12 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 215px;
+  height: 220px;
 }
 
 .product_section .box .img-box img {
   max-width: 100%;
-  max-height: 180px;
+  max-height: 200px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -445,7 +450,7 @@ a:focus {
   z-index: 3;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all .2s;
+  -webkit-transition: all .2s ease;
   transition: all .2s;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
@@ -522,7 +527,9 @@ a:focus {
   background-color: transparent;
   color: #f7444e;
 }
-
+.hidden-product {
+  display: none;
+}
 .arrival_section .heading_container {
   color: #002c3e;
   margin-bottom: 10px;
